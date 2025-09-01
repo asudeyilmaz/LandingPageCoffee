@@ -1,0 +1,76 @@
+body {
+	background-image: url(BackgroundCoffee.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color:  #c2755b;
+	background-size: contain;
+	min-height: 100vh;
+	color: white;
+	font-family: 'Brush Script MT', cursive;
+}
+header {
+	font-size: 2rem;
+	padding-left: 50px;
+}
+.box {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto auto 1fr auto;
+}
+
+main {
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2rem;
+}
+
+main div {
+	font-size: 2rem;
+	max-width: 500px;
+	width: 90%;
+		
+}
+
+footer {
+	text-align: center;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+nav li {
+	list-style-type: none;
+	display: block;
+	margin: 10px;
+	font-size: x-large;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+nav a:hover {
+	color: #0a08a8
+}
+img {
+	padding: 5px;
+	
+}
+img.instagram {
+	width: 40px;
+	height: 40px;
+}
+img.facebook {
+	width: 40px;
+	height: 40px;
+	padding-left: 1px;
+}
+img.whatsapp {
+	width: 40px;
+	height: 40px;
+}
