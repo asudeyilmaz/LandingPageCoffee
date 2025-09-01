@@ -12,6 +12,8 @@ header {
 	font-size: 2rem;
 	padding-left: 50px;
 }
+
+
 .box {
 	min-height: 100vh;
 	display: grid;
@@ -31,45 +33,54 @@ main {
 main div {
 	font-size: 2rem;
 	max-width: 500px;
-	width: 90%;
-		
+	width: 90%;		
 }
 
-footer {
-	text-align: center;
+footer div {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
 }
+
 nav ul {
   display: flex;
   gap: 20px;
   justify-content: flex-end;
   padding-right: 50px;
 }
+
 nav li {
 	list-style-type: none;
 	display: block;
 	margin: 10px;
 	font-size: x-large;
 }
+
 nav a {
 	text-decoration: none;
 	color: white;
 }
+
 nav a:hover {
-	color: #0a08a8
+	color: #b35a3b;
 }
+
 img {
 	padding: 5px;
 	
 }
+
 img.instagram {
 	width: 40px;
 	height: 40px;
 }
+
 img.facebook {
 	width: 40px;
 	height: 40px;
 	padding-left: 1px;
 }
+
 img.whatsapp {
 	width: 40px;
 	height: 40px;
